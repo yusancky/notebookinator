@@ -20,8 +20,7 @@ jobs:
         with:
           crate: just
       - name: Install Typst
-        uses: yusancky/setup-typst@v3
-        id: setup-typst
+        uses: typst-community/setup-typst@v4
       - name: Run checks
         run: |
           just package local
