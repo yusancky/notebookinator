@@ -24,8 +24,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install Typst
-        uses: yusancky/setup-typst@v3
-        id: setup-typst
+        uses: typst-community/setup-typst@v4
 
       - name: Install Mdbook
         uses: extractions/setup-crate@v1
