@@ -25,6 +25,8 @@ jobs:
 
       - name: Install Typst
         uses: typst-community/setup-typst@v4
+          with:
+            typst-version: 0.12.0
 
       - name: Install Mdbook
         uses: extractions/setup-crate@v1
